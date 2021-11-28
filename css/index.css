@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  font-family: var(--font1);
+  margin-top: 25px;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+  /* background-color: red; */
+}
+
+.content {
+  /* background-color: rgb(111, 111, 231); */
+  display: flex;
+  height: 100%;
+  margin-top: 32px;
+  padding: 10px;
+  position: relative;
+}
+.content-left {
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 49px;
+  z-index: 1;
+}
+
+.content-right {
+  font-family: var(--font1);
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  padding: 52px;
+}
+/*.content-right img {
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 100px;
+}*/
+.year-box {
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  width: 234px;
+  height: 255px;
+  font-size: 18px;
+}
+.year-box div {
+  margin: 12px 0px;
+}
+
+.home-articles {
+  padding: 18px;
+  background-color: rgb(248, 239, 239, 0.5);
+  margin-top: 23px;
+  position: relative;
+}
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+.home-article img {
+  width: 300px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+}
+.home-article-content a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  /* height: 50px; */
+  display: flex;
+  flex-direction: column;
+  background-color: #1f4037;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.footer a {
+  color: white;
+}
+
+.nav-left {
+  display: flex;
+  margin: inherit;
+}
+.nav-left img {
+  margin: -60px 0px;
+  width: 150px;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 18px;
+  padding-bottom: 23px;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+.nav-right {
+}
