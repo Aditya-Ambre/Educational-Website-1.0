@@ -17,8 +17,9 @@ This is a Static Website Edcuational Website
 - JavaScript
 
 **Navigation Structure**
-1.Home Page
-2.About Page
-3.Contact Page
-4.Sign Up/In Page
-5.Articles Page.
+
+1. Home Page
+2. About Page
+3. Contact Page
+4. Sign Up/In Page
+5. Articles Page.
